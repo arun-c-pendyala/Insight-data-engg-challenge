@@ -19,7 +19,7 @@ class RunningMedian:
             # find the median
     def findMedian(self):
         if len(self.small) == len(self.large): #even number of elements
-            return float(self.large[0] - self.small[0]) / 2.0
+            return float(self.large[0] - self.small[0]) / 2.0  # average of the numbers ; note: small has numbers with inverted sign
         else:
             return float(self.large[0]) #odd number of elements
 
